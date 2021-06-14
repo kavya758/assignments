@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 def mul(listu):
     product = 1
     for i in listu:
@@ -22,10 +19,6 @@ def mul(listu):
             print (product)
         else:
             print ('0'+ str(product))
-
-
-# In[5]:
-
 
 lst = []
 n = int(input("enter number of elements: "))
